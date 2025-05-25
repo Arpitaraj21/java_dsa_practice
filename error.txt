@@ -1,0 +1,24 @@
+ ************************* ERRORS FACED WHILE SOLVING QUESTIONS ***************************************
+
+
+ 1) unclosed character literal
+
+ Got this error because in Java, single quotes ('') are used only for a single character.
+  For more than one character or for words/strings like 'hello' or 'hello world', you should use double quotes ("").
+
+  example ) char letter = 'a';         // ✅ Correct
+            String word = "hello";     // ✅ Correct
+            String sentence = "hello world";  // ✅ Correct
+            char invalidChar = 'hello';      // ❌ Error: unclosed character literal
+            char spaceChar = ' ';            // ✅ Valid: a space is still a single character
+
+
+
+2) no suitable method found for println(String, int) method PrintStream. println is not applicable
+
+getting this error because in java the method System.out.println() does not accept two arguments like that. It expects either
+a single argument or multiple values concatenated into a single string.
+
+
+System.out.println("Sum of two numbers", c);  // Compilation Error
+System.out.printf("Sum of two numbers: %d%n", c);  // Correct
