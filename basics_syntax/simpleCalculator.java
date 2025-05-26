@@ -27,6 +27,7 @@ public class  simpleCalculator {
             case  '/' -> System.out.println(a/b);
             default -> throw new AssertionError();
         }
+        sc.close();
     }
 }
 
