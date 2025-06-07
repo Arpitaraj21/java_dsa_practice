@@ -22,3 +22,13 @@ a single argument or multiple values concatenated into a single string.
 
 System.out.println("Sum of two numbers", c);  // Compilation Error
 System.out.printf("Sum of two numbers: %d%n", c);  // Correct
+
+
+3) accidently added extra public modifier in the entry point, for that i got the this error
+
+repeated modifier
+Duplicate modifier for the method main in type
+
+public public static void main(String[] args) { // Error: duplicate public modifier
+  // Code here
+}
