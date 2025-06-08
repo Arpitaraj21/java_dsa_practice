@@ -41,5 +41,6 @@ public class closestNumber {
                 System.out.println("the second value is " + secondCandidate);
             }
         }
+        sc.close();
     }
 }
