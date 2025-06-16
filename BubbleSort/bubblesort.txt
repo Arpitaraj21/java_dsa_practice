@@ -1,0 +1,63 @@
+🟢 Basic Level (Understanding the Core Logic)
+Sort an array using the basic Bubble Sort algorithm.
+
+Count the number of swaps required to sort the array using Bubble Sort.
+
+Modify Bubble Sort to print the array after each pass.
+
+Implement Bubble Sort for a list of strings in alphabetical order.
+
+Implement Bubble Sort to sort integers in descending order.
+
+Write a function that returns true if an array is already sorted (no swaps made in Bubble Sort).
+
+Sort a given array of only 0s and 1s using Bubble Sort.
+
+Sort a given array of 0s, 1s, and 2s using Bubble Sort.
+
+Perform Bubble Sort on a list of floating-point numbers.
+
+Show how many comparisons are done in Bubble Sort.
+
+🟡 Intermediate Level (Variations and Understanding)
+Use Bubble Sort to sort an array of objects based on one of their properties (e.g., age).
+
+Modify Bubble Sort to stop if the array is sorted before all passes.
+
+Sort a jagged 2D array using Bubble Sort on each row individually.
+
+Implement Bubble Sort without using a temporary variable (use XOR swap logic).
+
+Find the K-th smallest element using Bubble Sort (stop after k passes).
+
+Sort a list and return the intermediate states (array after each swap).
+
+Modify Bubble Sort to sort only the first half of the array.
+
+Modify Bubble Sort to sort odd and even indexed elements separately.
+
+Apply Bubble Sort on a linked list (manually created in code).
+
+Find and print all local inversions during the Bubble Sort process.
+
+🔴 Advanced Level (Applications & Challenges)
+Compare performance (execution time) of Bubble Sort on 1000, 10000, and 100000 element arrays.
+
+Sort a huge list but track only the number of times each index is swapped.
+
+Sort an array and generate a bar chart animation using the Bubble Sort steps (JS/HTML/CSS).
+
+Sort a nearly sorted array using Bubble Sort and compare its performance with fully unsorted data.
+
+Identify and fix errors in a faulty implementation of Bubble Sort.
+
+Sort the array but only perform Bubble Sort on the elements greater than a threshold.
+
+Combine Bubble Sort and Binary Search: sort the array then perform a binary search on the result.
+
+Use Bubble Sort as a part of another algorithm (e.g., in bucket sort for small subarrays).
+
+Compare Bubble Sort with Selection and Insertion sort on same datasets.
+
+Modify Bubble Sort to sort based on absolute values of integers.
+
