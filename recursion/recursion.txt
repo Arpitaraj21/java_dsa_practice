@@ -1,0 +1,85 @@
+what is  recursion?
+-> when a function calls itself until a specified condition is met
+
+
+public class recursionTest(){
+    public static void function {
+        System.out.println('1');
+        function();
+    }
+
+    public static void main(String[] args) {
+        function();
+    }
+}
+
+// stackoverflow - > specific memory 
+
+count = 0
+
+
+function(){
+    print(count);
+    count++;
+    function();
+}
+
+main(){
+    function();
+}
+
+base condition -> the condition that we use to stop it, is known as base condition
+
+
+
+// how to add base condition
+
+
+function() {
+    if(count === 4) {
+        return;
+    }
+    else{
+        print(count);
+        count++
+        function();
+    }
+}
+
+main(){
+    function()
+}
+
+
+
+
+/// ************** infinite loop *************** ///
+
+
+public class recursion_2 {
+    static int count = 0;
+
+    public static void function1() {
+        System.out.println(count);
+        count++;
+        function1(); // recursive call with no base case
+    }
+
+    public static void main(String[] args) {
+        function1();
+    }
+}
+
+
+
+*) recursion without a base case is almost always wrong.
+
+*) it doesn't create a proper infinite loop, it just keeps 
+stacking methods calls until memory runs out
+
+
+
+
+
+/// ************* recursion tree ************** ///
+

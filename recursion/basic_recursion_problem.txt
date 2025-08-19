@@ -1,0 +1,5 @@
+1) print name 5 times
+2) print linearly from 1 to N 
+3) print from N to 1
+4) print linearly from 1 to N (but by backtracking)
+5) print from N to 1 (by backtracking)
