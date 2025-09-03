@@ -1,0 +1,91 @@
+🔹 Easy Level (Basics of HashMap)
+
+Frequency Count of Elements
+
+Given an array of integers, count how many times each element appears.
+
+Example: [1,2,2,3,1,4] → {1=2, 2=2, 3=1, 4=1}
+
+First Non-Repeating Character in a String
+
+Input: "swiss" → Output: 'w'
+
+Use HashMap to store frequency of characters.
+
+Check if Two Strings are Anagrams
+
+"listen" and "silent" → true
+
+Count characters with HashMap.
+
+Find Duplicates in an Array
+
+Input: [4,3,2,7,8,2,3,1] → Output: [2,3]
+
+Check if Array Contains Duplicate
+
+Return true if any number appears twice.
+
+🔹 Medium Level (Problem Solving with HashMap)
+
+Subarray Sum Equals K
+
+Input: [1,2,3], k=3 → Output: 2 (subarrays [1,2], [3])
+
+Two Sum Problem
+
+Input: [2,7,11,15], target=9 → Output: [0,1]
+
+Use HashMap to store complements.
+
+Longest Substring Without Repeating Characters
+
+Input: "abcabcbb" → Output: 3 ("abc")
+
+Group Anagrams
+
+Input: ["eat","tea","tan","ate","nat","bat"]
+
+Output: [["eat","tea","ate"],["tan","nat"],["bat"]]
+
+Word Pattern Matching
+
+Input: pattern = "abba", str = "dog cat cat dog" → true
+
+Use HashMap for bijection mapping.
+
+🔹 Hard Level (Advanced HashMap Applications)
+
+Longest Consecutive Sequence
+
+Input: [100,4,200,1,3,2] → Output: 4 (sequence [1,2,3,4])
+
+Top K Frequent Elements
+
+Input: [1,1,1,2,2,3], k=2 → Output: [1,2]
+
+Subarrays with Equal Number of 0s and 1s
+
+Input: [0,1,0] → Output: 2
+
+Subarrays [0,1], [1,0].
+
+Count Distinct Elements in Every Window of Size K
+
+Input: [1,2,1,3,4,2,3], k=4 → Output: [3,4,4,3]
+
+Minimum Window Substring (Hard)
+
+Input: s = "ADOBECODEBANC", t = "ABC"
+
+Output: "BANC"
+
+Use HashMap for character counts.
+
+🔹 Practice Approach
+
+Start with frequency counting problems.
+
+Then move to subarray problems (common in interviews).
+
+Finally, practice sliding window + HashMap (advanced).
