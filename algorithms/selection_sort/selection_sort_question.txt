@@ -1,0 +1,45 @@
+🟢 Basic Level
+
+Write a program to implement Selection Sort on an integer array.
+Input: [64, 25, 12, 22, 11]
+Output: [11, 12, 22, 25, 64]
+
+Modify your program to sort in descending order.
+Input: [5, 1, 4, 2, 8]
+Output: [8, 5, 4, 2, 1]
+
+Write a program that sorts an array using Selection Sort and also prints the array after every pass.
+Example:
+
+Input: [29, 10, 14, 37, 14]
+Pass 1: [10, 29, 14, 37, 14]
+Pass 2: [10, 14, 29, 37, 14]
+Pass 3: [10, 14, 14, 37, 29]
+Pass 4: [10, 14, 14, 29, 37]
+
+🟡 Medium Level
+
+Implement Selection Sort and count the number of comparisons and swaps performed.
+
+Sort an array of strings (e.g., ["pear", "apple", "banana"]) using Selection Sort in alphabetical order.
+
+Use Selection Sort to find the k-th smallest element in an array without fully sorting it.
+
+Implement Selection Sort for a 2D array row-wise (sort each row independently).
+Example:
+
+Input:
+4 2 7
+1 3 5
+
+Output:
+2 4 7
+1 3 5
+
+🔴 Tricky Level
+
+Modify Selection Sort to make it a stable sort (hint: don’t swap, shift elements).
+
+Implement Selection Sort for a linked list instead of an array.
+
+Write a program that sorts an array using Selection Sort but stops early if the array is already sorted at some iteration.
