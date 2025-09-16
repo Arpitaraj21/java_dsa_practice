@@ -1,0 +1,45 @@
+🔹 Basic Level (Direct Implementation)
+
+Write a program to implement Bubble Sort on an array of integers.
+
+Implement Selection Sort to sort an array in ascending order.
+
+Implement Insertion Sort to sort an array in descending order.
+
+Implement Merge Sort to sort an array of integers.
+
+Modify Bubble Sort to stop early if the array becomes sorted before all passes.
+
+🔹 Intermediate Level (Variants & Applications)
+
+Sort an array of strings (alphabetical order) using Insertion Sort.
+
+Sort an array of floating-point numbers using Selection Sort.
+
+Sort a given array and count the number of swaps performed by Bubble Sort.
+
+Sort a given array and count the number of comparisons in Selection Sort.
+
+Implement Merge Sort and print the array at every merge step.
+
+Write a program that sorts only the even numbers in the array using Insertion Sort, keeping odd numbers in place.
+
+Sort a list of student objects (name, marks) by marks using Merge Sort.
+
+🔹 Advanced Level (Problem-Solving with Sorting)
+
+Given an array of 0s, 1s, and 2s, sort it using any sorting algorithm (try Selection Sort and Merge Sort).
+
+Sort an array but stably (maintain relative order) using Insertion Sort.
+
+Use Merge Sort to count the number of inversions in an array. (Inversion = pair (i, j) where i < j but arr[i] > arr[j]).
+
+Implement Recursive Insertion Sort instead of iterative.
+
+Implement Recursive Bubble Sort.
+
+Sort an array of strings by their lengths using Selection Sort.
+
+Use Merge Sort to sort a linked list.
+
+Implement a hybrid sorting algorithm: use Insertion Sort for small subarrays inside Merge Sort (like in TimSort).
