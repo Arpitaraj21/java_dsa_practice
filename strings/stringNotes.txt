@@ -1,0 +1,12 @@
+string is a sequence of chacter in double quotes
+"abcd"
+
+'c' -> its a character
+
+
+// how to create a string
+
+string name = "Arpita";
+
+int is a primitive data type 
+String is a class
