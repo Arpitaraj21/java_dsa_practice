@@ -2,19 +2,21 @@
 import java.util.Arrays;
 
 public class insertion_sort {
+
     public static void main(String[] args) {
-        int[] arr = { 65, 22, 98, 72, 45, 76 };
+        int[] arr = {64, 32, 25, 12, 22};
         int n = arr.length;
 
-        for(int i=0; i<n; i++){
+        for (int i = 1; i < n; i++) {
             int key = arr[i];
             int j = i - 1;
-            while(j>=0 && arr[j] > key ){
-                arr[j+1] = arr[j];
+            while (j >= 0 && arr[j] > key) {
+                arr[j + 1] = arr[j];
                 j--;
             }
-            arr[j+1] = key;
+
+            arr[j + 1] = key;
         }
-        System.out.println(Arrays.toString(arr));
+        System.out.println("sorted array: " + Arrays.toString(arr));
     }
 }
