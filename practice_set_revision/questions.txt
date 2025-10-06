@@ -1,0 +1,23 @@
+1) write the algorithm for bubble sort
+2) write the algorithm for selection sort
+3) write the algorithm for merge sort
+4) write the algorithm for insertion sort
+5) write the algorithm for quick sort
+6) write the algorithm for linear search
+7) move all the zeros at the last
+8) find the largest element in the array
+9) find the second largest element in the array
+10) find the unique elements in the array
+11) remove duplicate elements in an array
+12) left rotate by 1 place
+13) left rotate by D place
+14) return the number that appears one
+15) check if array is already sorted
+16) count the number of swap
+17) break  the loop if not swapped
+18) print the array after every pass
+19) reverse the array and sort the array with zeros and 1's
+20) sort the array in reverse decending order
+21) find the missing number
+22) find the frequency of the array
+23) find anagram string 
