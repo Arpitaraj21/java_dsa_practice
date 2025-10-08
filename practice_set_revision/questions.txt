@@ -11,7 +11,7 @@
 11) remove duplicate elements in an array
 12) left rotate by 1 place
 13) left rotate by D place
-14) return the number that appears one
+14) return the number that appears once
 15) check if array is already sorted
 16) count the number of swap
 17) break  the loop if not swapped
