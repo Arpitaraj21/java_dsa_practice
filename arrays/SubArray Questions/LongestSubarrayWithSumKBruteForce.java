@@ -1,6 +1,6 @@
 import static java.lang.Math.max;
 
-public class LongestSubarray{
+public class LongestSubarrayWithSumKBruteForce{
     public static void main(String[] args) {
         int[] arr = {1,2,3,1,1,1,1,4,2,3};
         int n = arr.length;
