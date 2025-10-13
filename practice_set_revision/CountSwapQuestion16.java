@@ -17,3 +17,4 @@ public class CountSwapQuestion16{
         System.out.println(count);
     }
 }
+
