@@ -11,7 +11,9 @@ public class MaxSubArraySumOptimizedApproach {
         for (int i = 0; i < n; i++) {
             sum += arr[i];
 
-            maxSum = Math.max(maxSum, sum);
+            if (sum > maxSum) {
+                maxSum = sum;
+            }
 
             if (sum < 0) {
                 sum = 0;
