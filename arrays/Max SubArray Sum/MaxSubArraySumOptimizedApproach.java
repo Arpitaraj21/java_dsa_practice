@@ -20,6 +20,10 @@ public class MaxSubArraySumOptimizedApproach {
             }
         }
 
+        if (maxSum < 0) {
+            maxSum = 0;
+        }
+
         System.out.println(maxSum);
 
     }
